@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-form-main</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body class="bg-[rgb(226,241,231)]">
+    <div
+      class="bg-white h-[760px]  w-[200px] mx-auto mt-5 rounded-md sm:w-[600px] sm:pl-5 sm:h-[530px]"
+    >
+      <h2 class="pl-5 font-semibold pt-4">Contact Us</h2>
+      
+      <div>
+        <div class="sm:flex">
+          <div class="contena">
+            <form action="" class="pl-2 pt-4 sm:pt-0">
+              <label for=""
+                >First Name <span class="text-blue-300 mt-7">*</span></label
+              ><br />
+              <input type="text" class="border rounded-md h-8 sm:w-[270px] hover:border-[rgb(12,124,105)] input1" />
+            </form>
+          </div>
+          <div>
+            <form action="" class="pl-2 pt-4 sm:pt-0">
+              <label for=""
+                >Last Name <span class="text-blue-300 mt-7">*</span></label
+              ><br />
+              <input type="text" class="border rounded-md h-8 sm:w-[270px] hover:border-[rgb(12,124,105)] input1" />
+            </form>
+          </div>
+        </div>
+        <form action="" class="pl-2 pt-4">
+          <label for=""
+            >Email Address <span class="text-blue-300 mt-7">*</span></label
+          ><br />
+          <input type="email" class="border rounded-md h-8 sm:w-[550px] hover:border-[rgb(12,124,105)] input1" />
+        </form>
+
+        <form action="" class="pl-2 pt-4">
+          <label for=""
+            >Query Type <span class="text-blue-300 mt-7">*</span></label
+          >
+          <div class="sm:flex gap-2">
+            <div
+              class="w-[185px] h-10 boorder border-2 pl-6 rounded-md mt-2 sm:mt-0 sm:w-[270px] hover:border-[rgb(12,124,105)]"
+            >
+              <input type="radio" /><span class="ml-3">General Enquiry</span>
+            </div>
+            <div
+              class="w-[185px] h-10 boorder border-2 pl-6 rounded-md mt-3 sm:mt-0 sm:w-[270px] mb-[20px] hover:border-[rgb(12,124,105)]"
+            >
+              <input type="radio" /><span class="ml-3">Support Request</span>
+            </div>
+          </div>
+        </form>
+
+        <form action="">
+          <label for="" class="pl-5"
+            >Messages <span class="text-blue-300 mt-7">*</span></label
+          ><br>
+          <input
+            type="text"
+            class="border rounded-md h-[150px] w-[170px]  ml-3 sm:w-[550px] sm:h-[75px] hover:border-[rgb(12,124,105)input4]"
+          />
+        </form>
+        <div class="flex">
+          <form action="">
+            <input type="checkbox" class="ml-3 mt-7 " />
+            <label for="" class="pl-5"
+              >I consent to being contacted by the team
+              <span class="text-blue-300 mt-7">*</span>
+            </label>
+          </form>
+        </div>
+        <div
+          class="bg-[rgb(12,124,105)] w-[180px] h-10 text-center pt-2 mt-10 rounded-md ml-3 sm:w-[550px] text-white hover:bg-[rgb(2,70,70)] submit"
+        >
+          Submit
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
